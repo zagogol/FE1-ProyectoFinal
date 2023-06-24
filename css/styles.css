@@ -12,6 +12,7 @@ body {
     width: 100vw;
 }
 
+/* Header */
 ul {
     list-style: none;
 }
@@ -57,6 +58,8 @@ header {
     align-items: center;
     padding: 40px 56px 64px 56px;
 }
+
+/* Main */
 
 .banner {
     display: flex;
@@ -222,7 +225,7 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 330px;
+    height: 350px;
     padding: 40px 50px;
     width: 100%;
 }
@@ -248,6 +251,8 @@ button {
     text-align: center;
     width: 134px;   
 }
+
+/* Footer */
 
 footer {
     background-color: #1E1E26;
@@ -357,7 +362,7 @@ input[type=text] {
     
     .diff-box {
         height: 214px;
-        width: 400px;
+        width: 500px;
         position: relative;
     }
     
