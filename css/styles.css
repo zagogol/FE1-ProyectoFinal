@@ -21,10 +21,10 @@ a {
 }
 
 #top-menu {
-    display: none;
     background-color: #333;
-    width: 100%;
+    display: none;    
     text-align: center;
+    width: 100%;    
 }
 
 #top-menu ul li {
@@ -38,12 +38,12 @@ a {
 
 #boton-hamburguesa {
     background-color: white;
+    border: none;    
     color: black;
+    cursor: pointer;
     font-size: 40px;
     height: 44px;
-    padding: 0px;
-    border: none;
-    cursor: pointer;
+    padding: 0px;    
     width: 50px;
 }
 
@@ -51,11 +51,11 @@ a {
     display: none;
 }
 
-header {
-    padding: 40px 56px 64px 56px;
+header {    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 56px 64px 56px;
 }
 
 .banner {
@@ -402,7 +402,7 @@ input[type=text] {
         justify-content: space-between;
         align-items: flex-end;
         flex-wrap: nowrap;
-        height: 247px;
+        height: 227px;
     }
     
     .footer-section-1 {
@@ -440,6 +440,14 @@ input[type=text] {
 
     .rss-form {
         width: 30%;
+    }
+
+    .copyright {
+        background-color: #1E1E26;
+        margin-top: 0px;
+        padding: 0px 30px 5px 0px;
+        width: 100%;
+        text-align: right;
     }
 }
 
